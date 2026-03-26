@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 
+
 const HeroSection = () => {
   return (
     <section id="inicio" className="min-h-screen flex items-center pt-20">
@@ -15,7 +16,7 @@ const HeroSection = () => {
               <span className="text-primary">coragem</span>
             </h1>
             <p className="text-lg text-muted-foreground font-body leading-relaxed max-w-lg">
-              Psicoterapia com acolhimento, ética e profundidade. Um espaço seguro 
+              Psicoterapia com acolhimento, ética e profundidade. Um espaço seguro
               para o seu processo de autoconhecimento e transformação.
             </p>
             <Button size="lg" className="rounded-full px-8 py-6 text-base font-body">
@@ -24,17 +25,22 @@ const HeroSection = () => {
           </div>
 
           {/* Right - circular image */}
-          <div className="flex justify-center md:justify-end" style={{ animationDelay: "0.2s" }}>
+          <div className="flex justify-center md:justify-end animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <div className="relative">
-              <div className="w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full border-4 border-primary overflow-hidden bg-muted">
+              {/* Container da Imagem com borda Ocre e Sombra */}
+              <div className="w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full border-2 border-[#e3cb85] overflow-hidden bg-white shadow-1g">
                 <img
-                  src="/placeholder.svg"
+                  src="/Daniel.png"
                   alt="Daniel Camaforte - Psicólogo"
                   className="w-full h-full object-cover"
                 />
               </div>
-              {/* Decorative ring */}
-              <div className="absolute -inset-4 rounded-full border border-primary/30" />
+
+              {/* Anel Decorativo Sutil (Aquele azul profundo da paleta) */}
+              <div className="absolute -inset-4 rounded-full border border-[#606f95]/10 -z-10" />
+
+              
+             
             </div>
           </div>
         </div>

@@ -33,14 +33,15 @@ const InstitutionalSection = () => {
 
         <div className="max-w-3xl mx-auto text-center mb-20">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-secondary mb-8 leading-tight">
-            Um olhar atento para a sua{" "}
-            <span className="text-primary">singularidade</span>
+            Cuidar da mente é o primeiro passo para transformar a {" "}
+            <span className="text-primary">sua vida.</span>
           </h2>
           <p className="text-lg text-muted-foreground font-body leading-relaxed">
-            Daniel Camaforte é psicólogo clínico com abordagem integrativa, 
-            dedicado a oferecer um espaço terapêutico que respeita o ritmo 
-            e a história de cada pessoa. Com anos de experiência, atua com 
-            foco em saúde mental, desenvolvimento pessoal e qualidade de vida.
+            Sou psicólogo clínico e, ao longo da minha trajetória, tenho me dedicado a ajudar pessoas a encontrarem equilíbrio emocional, superarem desafios e desenvolverem uma vida mais leve e consciente. Trabalho com abordagens baseadas em evidências, como a Terapia Cognitivo-Comportamental (TCC), a Terapia do Esquema e fundamentos da Neurociência, sempre com um olhar atento e humano para cada história.
+
+            Atendo questões como ansiedade, depressão e dificuldades relacionadas ao uso de substâncias, oferecendo um espaço seguro de escuta, acolhimento e transformação. Acredito que cada pessoa é única, e por isso meu trabalho é construído de forma personalizada, respeitando o seu tempo e a sua jornada.
+
+            Sigo em constante aprimoramento, buscando integrar conhecimento científico e sensibilidade no cuidado, para caminhar ao seu lado na busca por mais saúde emocional, autoconhecimento e qualidade de vida.
           </p>
         </div>
 
